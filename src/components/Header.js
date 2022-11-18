@@ -8,7 +8,7 @@ const Header = () => {
         
   <header  className="fixed-top d-flex justify-content-center align-items-center header-transparent">
 
-    <nav  className="navbar">
+    <nav  className="navbar" style={{ alignItem:'center' }}>
       <ul>
         <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a className="nav-link scrollto" href="#about">About</a></li>
