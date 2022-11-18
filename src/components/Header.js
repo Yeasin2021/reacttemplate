@@ -3,11 +3,11 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div>
+    <div className='header'>
         
-  <header id="header" className="fixed-top d-flex justify-content-center align-items-center header-transparent">
+  <header  className="fixed-top d-flex justify-content-center align-items-center header-transparent">
 
-    <nav id="navbar" className="navbar">
+    <nav  className="navbar">
       <ul>
         <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a className="nav-link scrollto" href="#about">About</a></li>
@@ -39,7 +39,7 @@ const Header = () => {
   </header>
 
   
-  <section id="hero">
+  <section className="hero">
     <div className="hero-container">
       <h1>Laura Thomson</h1>
       <h2>I'm a Professional Photographer In New York City</h2>
