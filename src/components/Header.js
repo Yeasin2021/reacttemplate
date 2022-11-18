@@ -1,5 +1,5 @@
 import React from 'react';
-
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
         
   <header  className="fixed-top d-flex justify-content-center align-items-center header-transparent">
 
-    <nav  className="navbar" style={{ alignItem:'center' }}>
+    <nav  className="navbar">
       <ul>
         <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a className="nav-link scrollto" href="#about">About</a></li>
@@ -44,7 +44,7 @@ const Header = () => {
     <div className="hero-container">
       <h1>Laura Thomson</h1>
       <h2>I'm a Professional Photographer In New York City</h2>
-      <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className="bx bx-chevron-down"></i></a>
+      <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
     </div>
   </section>
     </div>
