@@ -46,7 +46,7 @@ const Header = () => {
       <h1>{Data[0].title}</h1>
       <h2>{Data[0].description}</h2>
       
-      <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
+      <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className={Data[0].icon}></i></a>
     </div>
   </section>
     </div>

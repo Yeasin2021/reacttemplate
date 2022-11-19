@@ -3,6 +3,7 @@
     {
         "title"       : "Laura Thomson",
         "description" : "I'm a Professional Photographer In New York City",
-        "image"       : "./img/herobg.jpg"
+        "image"       : "./img/herobg.jpg",
+        "icon"        : "bi bi-chevron-down"
     }
 ]
