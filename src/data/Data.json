@@ -1,6 +1,8 @@
 
 [
     {
-        "image" : "./img/herobg.jpg"
+        "title"       : "Laura Thomson",
+        "description" : "I'm a Professional Photographer In New York City",
+        "image"       : "./img/herobg.jpg"
     }
 ]
