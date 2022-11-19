@@ -43,7 +43,7 @@ const Header = () => {
   
   <section className="hero"  style={{ backgroundImage: `url(${(Data[0].image)})` }}>
     <div className="hero-container">
-      <h1>Laura Thomson</h1>
+      <h1>{Data[0].title}</h1>
       <h2>I'm a Professional Photographer In New York City</h2>
       
       <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
