@@ -2,8 +2,8 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>
-       <div className="about">
+    <div className='main'>
+      <div id="about" className="about">
       <div className="container">
 
         <div className="section-title">
@@ -37,7 +37,7 @@ const AboutMe = () => {
               <div className="row mt-n4">
                 <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div className="count-box">
-                    <i className="bi bi-emoji-smile" style={{ color: "#20b38e" }}></i>
+                    <i className="bi bi-emoji-smile" style={{ color: "#20b38e;" }}></i>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>

@@ -41,14 +41,14 @@ const Header = () => {
   </header>
 
   
-  <section className="hero"  style={{ backgroundImage: `url(${(Data[0].image)})` }}>
+  <div className="hero"  style={{ backgroundImage: `url(${(Data[0].image)})` }}>
     <div className="hero-container">
       <h1>{Data[0].title}</h1>
       <h2>{Data[0].description}</h2>
       
       <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className={Data[0].icon}></i></a>
     </div>
-  </section>
+  </div>
     </div>
   )
 }
