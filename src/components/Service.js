@@ -1,7 +1,7 @@
 import React from 'react'
 import  ServiceData  from '../data/Service.json'
 import ServiceDetails from './ServiceDetails'
-//console.log(ServiceData)
+
 const Service = () => {
   return (
     <div>
@@ -15,11 +15,15 @@ const Service = () => {
         </div>
 
         <div className="row">
-            {/* {
-                ServiceData.map((Service,index) => <ServiceDetails key={index} props={Service} />)
-                //  <h1>{Service.service_title}
-            } */}
             {
+                ServiceData.map((Service,index) => <ServiceDetails key={index} 
+                ServiceTitle={Service.service_title} 
+                ServiceIcon={Service.service_icon}
+                ServiceDescription={Service.service_description} 
+                />)
+                
+            }
+            {/* {
 
                 ServiceData.map((Service,index) => {
                     return(
@@ -33,7 +37,7 @@ const Service = () => {
                     )
                 })
                 
-            }
+            } */}
     
         </div>
 
