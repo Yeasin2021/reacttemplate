@@ -1,5 +1,6 @@
 import React from 'react'
-
+import ServiceData from '../data/Service.json'
+console.log(ServiceData)
 const Service = () => {
   return (
     <div>
