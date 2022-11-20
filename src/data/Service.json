@@ -1,26 +1,26 @@
 [
     {
         "id"                        : 1,
-        "service-icon"              : "bi bi-balloon-heart-fill",
-        "service-title"             : "Lorem Ipsum",
-        "service-description"       : "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
+        "service_icon"              : "bi bi-balloon-heart-fill",
+        "service_title"             : "Lorem Ipsum",
+        "service_description"       : "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident"
     },
     {
         "id"                        : 2,
-        "service-icon"              : "bi bi-file-earmark-richtext",
-        "service-title"             : "Sed ut perspiciatis",
-        "service-description"       : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        "service_icon"              : "bi bi-file-earmark-richtext",
+        "service_title"             : "Sed ut perspiciatis",
+        "service_description"       : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
     },
     {
         "id"                        : 3,
-        "service-icon"              : "bi bi-speedometer",
-        "service-title"             : "Magni Dolores",
-        "service-description"       : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "service_icon"              : "bi bi-speedometer",
+        "service_title"             : "Magni Dolores",
+        "service_description"       : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
     },
     {
         "id"                        : 4,
-        "service-icon"              : "bi bi-globe-asia-australia",
-        "service-title"             : "Nemo Enim",
-        "service-description"       : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
+        "service_icon"              : "bi bi-globe-asia-australia",
+        "service_title"             : "Nemo Enim",
+        "service_description"       : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
     }
 ]
