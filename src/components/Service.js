@@ -9,20 +9,21 @@ const Service = () => {
       <div className="container">
 
         <div className="section-title">
-          <span>My Services</span>
-          <h2>My Services</h2>
+          <span>{ServiceData[0].service_header}</span>
+          <h2>{ServiceData[0].service_header}</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div className="row">
             {
-                ServiceData.map((Service,index) => <ServiceDetails key={index} 
+                ServiceData.slice(1).map((Service,index) => <ServiceDetails key={index} 
                 ServiceTitle={Service.service_title} 
                 ServiceIcon={Service.service_icon}
                 ServiceDescription={Service.service_description} 
                 />)
                 
             }
+            {/* data render Another way  */}
             {/* {
 
                 ServiceData.map((Service,index) => {
