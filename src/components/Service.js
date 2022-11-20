@@ -11,7 +11,7 @@ const Service = () => {
         <div className="section-title">
           <span>{ServiceData[0].service_header}</span>
           <h2>{ServiceData[0].service_header}</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>{ServiceData[0].service_title}</p>
         </div>
 
         <div className="row">
