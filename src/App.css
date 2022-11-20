@@ -541,6 +541,7 @@ section {
 /* added 11/20/2022 */
 .main{
   position: relation;
+  /* position: absolute; */
   margin-top:50%;
 }
 

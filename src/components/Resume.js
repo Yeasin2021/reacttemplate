@@ -2,8 +2,8 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>
-      <div id="resume" className="resume">
+    
+      <div id="resume" className="resume" style={{ marginTop:'5%' }}>
       <div className="container">
 
         <div className="section-title">
@@ -74,7 +74,7 @@ const Resume = () => {
 
       </div>
     </div>
-    </div>
+    
   )
 }
 
