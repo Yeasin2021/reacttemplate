@@ -5,8 +5,8 @@
         "class"         : "Hons-1st Year",
         "media"         : [
             {
-                "socialMedia" : "Facebook",
-                "videoMedia"  : "Youtube" 
+                "socialMedia" : "Facebook"
+                 
             }
         ]
     },
@@ -23,3 +23,6 @@
         ]
     }
 ]
+
+
+

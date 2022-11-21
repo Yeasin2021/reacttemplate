@@ -1,23 +1,22 @@
-import React from 'react'
-import ResumeData from '../data/Resume.json';
+import React from 'react';
 import TestJson from '../data/Test.json';
 const Test = () => {
-//   console.log(TestJson)
-  
   return (
     <div>
       {
-        TestJson.map((item,index) => {
-            console.log(item.id)
-            console.log(item.name)
-            console.log(item.class)
-           item.media.map((element) => {
-            console.log(element.socialMedia)
-            console.log(element.videoMedia)
-            }
-            
-           )
-        })
+        TestJson.map(testOne => (
+            <article>
+                <p>{testOne.id}</p>
+                <p>{testOne.name}</p>
+                <p>{testOne.class}</p>
+                {
+                    testOne.media.map((item)=> <div>
+                        <p>{item.socialMedia}</p>
+                        <p>{item.videoMedia}</p>
+                    </div>)
+                }
+            </article>
+        ))
       }
     </div>
   )

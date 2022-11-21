@@ -8,6 +8,7 @@ import Test from './components/Test';
 
 
 
+
 function App() {
   return (
     <div>
@@ -17,9 +18,9 @@ function App() {
       <Resume />
       <Service />
       {/* <Testimonial /> */}
-      
-      </div>
       <Test />
+      </div>
+      
     </div>
   );
 }
