@@ -3,7 +3,7 @@ import ResumeData from '../data/Resume.json';
 
 const Resume = () => {
   // console.log(ResumeData[0].Sumary[0])
-  console.log(ResumeData)
+  // console.log(ResumeData)
   return (
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>

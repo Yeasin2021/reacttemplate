@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import Service from './components/Service';
 import Testimonial from './components/Testimonial';
+import Test from './components/Test';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Resume />
       <Service />
       {/* <Testimonial /> */}
+      <Test />
       </div>
     </div>
   );
