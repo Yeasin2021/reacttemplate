@@ -1,0 +1,25 @@
+[
+    {
+        "id"            : 1,
+        "name"          : "Yeasin Hossain",
+        "class"         : "Hons-1st Year",
+        "media"         : [
+            {
+                "socialMedia" : "Facebook",
+                "videoMedia"  : "Youtube" 
+            }
+        ]
+    },
+
+    {
+        "id"            : 2,
+        "name"          : "Shabuddin Ahamed",
+        "class"         : "Hons-3rd Year",
+        "media"         : [
+            {
+                "socialMedia" : "Intragram",
+                "videoMedia"  : "Torrent" 
+            }
+        ]
+    }
+]
