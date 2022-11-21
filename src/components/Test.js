@@ -1,12 +1,39 @@
 import React from 'react';
 import TestJson from '../data/Test.json';
 import TestJson2 from '../data/TestTwo.json';
+import ResumeData from '../data/Resume.json';
 console.log(TestJson2)
 const Test = () => {
   return (
-    <div>
+    <section id="resume" className="resume">
+      <div className="container">
+
+        <div className="section-title">
+          <span>My Resume</span>
+          <h2>My Resume</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
         <div className="row">
-          <div className="col-lg-6">
+            {
+                TestJson2.map(testOne => (
+                <article>
+                        {
+                            testOne.media.map((item)=> <div>
+                                <p>{item.sm_title}</p>
+                                <p>{item.sm_key_word_one}</p>
+                                <p>{item.sm_details}</p>
+                                <p>{item.sm_address}</p>
+                                <p>{item.sm_phone}</p>
+                                <p>{item.sm_mail}</p>
+                                <p>{item.ed_title_one}</p>
+                            </div>)
+                        }
+                    </article>
+                ))
+            } 
+           
+          {/* <div className="col-lg-6">
             <h3 className="resume-title">Sumary</h3>
             <div className="resume-item pb-0">
               <h4>Alice Barkley</h4>
@@ -33,8 +60,10 @@ const Test = () => {
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
             </div>
-          </div>
-          <div className="col-lg-6">
+          </div> */}
+
+
+          {/* <div className="col-lg-6">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
               <h4>Senior graphic design specialist</h4>
@@ -62,9 +91,14 @@ const Test = () => {
               </ul>
               </p>
             </div>
-          </div>
+          </div> */}
+
+
+          
         </div>
-    </div>
+
+      </div>
+    </section>
   )
 }
 

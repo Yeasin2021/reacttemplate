@@ -6,9 +6,6 @@ import Service from './components/Service';
 import Testimonial from './components/Testimonial';
 import Test from './components/Test';
 
-
-
-
 function App() {
   return (
     <div>
@@ -17,8 +14,9 @@ function App() {
       <AboutMe />
       <Resume />
       <Service />
-      {/* <Testimonial /> */}
+      <Testimonial />
       {/* <Test /> */}
+     
       </div>
       
     </div>
