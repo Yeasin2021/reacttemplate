@@ -11,8 +11,11 @@ const Test = () => {
             console.log(item.id)
             console.log(item.name)
             console.log(item.class)
-           item.media.map((element) => 
+           item.media.map((element) => {
             console.log(element.socialMedia)
+            console.log(element.videoMedia)
+            }
+            
            )
         })
       }
