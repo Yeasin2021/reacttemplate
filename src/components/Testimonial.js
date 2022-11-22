@@ -22,7 +22,7 @@ const Testimonial = () => {
                 </p>
               </div>
             </div>
-
+            {console.log('Why i am not working ')}
             <div className="swiper-slide">
               <div className="testimonial-item">
                 <img src="img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
