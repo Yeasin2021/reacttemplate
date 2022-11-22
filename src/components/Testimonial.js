@@ -7,7 +7,7 @@ const Testimonial = () => {
      <div id="testimonials" className="testimonials">
       <div className="container position-relative">
 
-        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div className="testimonials-slider " data-aos="fade-up" data-aos-delay="100">
           <div className="swiper-wrapper">
 
             <div className="swiper-slide">
@@ -22,7 +22,7 @@ const Testimonial = () => {
                 </p>
               </div>
             </div>
-            {console.log('Why i am not working ')}
+            {/* {console.log('Why i am not working ')} */}
             <div className="swiper-slide">
               <div className="testimonial-item">
                 <img src="img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
