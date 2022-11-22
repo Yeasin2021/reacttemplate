@@ -7,7 +7,7 @@ const Testimonial = () => {
      <div id="testimonials" className="testimonials">
       <div className="container position-relative">
 
-        <div className="testimonials-slider " data-aos="fade-up" data-aos-delay="100">
+        <div className="swiper testimonials-slider" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper-wrapper">
 
             <div className="swiper-slide">
