@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Testimonial = () => {
+  
   return (
-    <div>
-     <section id="testimonials" className="testimonials">
+    
+     <div id="testimonials" className="testimonials">
       <div className="container position-relative">
 
         <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -79,8 +80,8 @@ const Testimonial = () => {
         </div>
 
       </div>
-    </section>
     </div>
+   
   )
 }
 
