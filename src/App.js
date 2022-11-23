@@ -24,7 +24,7 @@ function App() {
       <Pricing />
       <Contacts />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

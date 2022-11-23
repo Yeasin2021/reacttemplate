@@ -180,30 +180,49 @@
    */
 
 
-   try {
-    new Swiper('.testimonials-slider', {
-    
-      speed: 600,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },
-      slidesPerView: 'auto',
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-      },
+  //  try {
+  //   new Swiper('.testimonials-slider', {
+  //     // observer: true,
+  //     // observeParents: true,
+  //     speed: 600,
+  //     loop: true,
+  //     autoplay: {
+  //       delay: 5000,
+  //       disableOnInteraction: false
+  //     },
+  //     slidesPerView: 'auto',
+  //     pagination: {
+  //       el: '.swiper-pagination',
+  //       type: 'bullets',
+  //       clickable: true
+  //     },
       
-    });
-  }
-  catch(err) {
-    console.log( err.message)
-  }
+      
+  //   });
+  // }
+  // catch(err) {
+  //   console.log( err.message)
+  // }
 
 
-
+  new Swiper('.testimonials-slider', {
+    observer: true,
+    observeParents: true,
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    
+    
+  });
    
 
   // console.log(a);

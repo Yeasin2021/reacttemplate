@@ -3,21 +3,21 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer id="footer">
-    <div class="container">
+      <footer className='footer'>
+    <div className="container">
       <h3>Laura Thomson</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div className="social-links">
+        <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
+        <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
+        <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
+        <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
+        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
       </div>
-      <div class="copyright">
+      <div className="copyright">
         &copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div className="credits">
         
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>

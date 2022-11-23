@@ -1,18 +1,32 @@
 import React from 'react'
 
 const Testimonial = () => {
+
+ 
+ 
   
+  // setInterval(function slide(){
+  //   const img_array = ['assets/img/testimonials/testimonials-1.jpg','assets/img/testimonials/testimonials-2.jpg','assets/img/testimonials/testimonials-3.jpg']
+  //   var index = 0;
+  //   document['img_id'].src = img_array[index];
+  //   index = index+1;
+  //   if(index>=img_array.length)
+  //   {
+  //     index = 0;
+  //   }
+  // },1000);
+
   return (
     
-     <div id="testimonials" className="testimonials">
+    <section id="testimonials" className="testimonials">
       <div className="container position-relative">
 
-        <div className="swiper testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+        <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper-wrapper">
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src="img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
+                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
                 <p>
@@ -22,10 +36,10 @@ const Testimonial = () => {
                 </p>
               </div>
             </div>
-            {/* {console.log('Why i am not working ')} */}
+
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src="img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
+                <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
                 <p>
@@ -38,7 +52,7 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src="img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
+                <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <p>
@@ -51,7 +65,7 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src="img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
+                <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <p>
@@ -64,7 +78,7 @@ const Testimonial = () => {
 
             <div className="swiper-slide">
               <div className="testimonial-item">
-                <img src="img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
+                <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <p>
@@ -80,7 +94,11 @@ const Testimonial = () => {
         </div>
 
       </div>
-    </div>
+    </section>
+    // <div>
+    //   <img id='img_id' src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" name="image" />
+    // </div>
+    
    
   )
 }
