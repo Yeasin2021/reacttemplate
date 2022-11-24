@@ -1,9 +1,4 @@
-/**
-* Template Name: Laura - v4.9.1
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -178,36 +173,7 @@
   /**
    * Testimonials slider
    */
-
-
-  //  try {
-  //   new Swiper('.testimonials-slider', {
-  //     // observer: true,
-  //     // observeParents: true,
-  //     speed: 600,
-  //     loop: true,
-  //     autoplay: {
-  //       delay: 5000,
-  //       disableOnInteraction: false
-  //     },
-  //     slidesPerView: 'auto',
-  //     pagination: {
-  //       el: '.swiper-pagination',
-  //       type: 'bullets',
-  //       clickable: true
-  //     },
-      
-      
-  //   });
-  // }
-  // catch(err) {
-  //   console.log( err.message)
-  // }
-
-
   new Swiper('.testimonials-slider', {
-    observer: true,
-    observeParents: true,
     speed: 600,
     loop: true,
     autoplay: {
@@ -219,13 +185,8 @@
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
-    },
-    
-    
+    }
   });
-   
-
-  // console.log(a);
 
   /**
    * Porfolio isotope and filter
