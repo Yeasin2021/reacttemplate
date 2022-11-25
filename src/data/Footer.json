@@ -1,6 +1,13 @@
 [
     {
         "header"                : "Laura Thomson",
-        "title"                 : "Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat."
+        "title"                 : "Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.",
+        "social_media"          : {
+            "media_one"         : "twitter",
+            "media_two"         : "facebook",
+            "media_three"       : "instagram",
+            "media_four"        : "google-plus",
+            "media_five"        : "linkedin"
+        }
     }
 ]
