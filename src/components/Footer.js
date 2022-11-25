@@ -11,19 +11,32 @@ const Footer = () => {
             <div>
               <h3>{item.header}</h3>
               <p>{item.title}</p>
-              {
-                item.social_media.map((item_one,index_one)=> (
-                 
-                <div>
-                  <a href="#" className="twitter"><i className={item_one.media_one}></i></a>
-                        <span><a href="#" className="facebook"><i className={item_one.media_two}></i></a></span>
-                       <span><a href="#" className="instagram"><i className={item_one.media_three}></i></a></span>
-                        <span><a href="#" className="google-plus"><i className={item_one.media_four}></i></a></span>
-                        <span><a href="#" className="linkedin"><i className={item_one.media_five}></i></a></span>
-                </div>
-                  
-                ))
-              }
+              <table>
+                  <tr>
+                  {
+                      item.social_media.map((item_one,index_one)=> (
+                      
+                      <div>
+                              <td><a href="#" className="twitter r1"><i className={item_one.media_one}></i></a></td>
+                              <td><a href="#" className="twitter r1"><i className={item_one.media_one}></i></a></td>
+                              <td><a href="#" className="twitter r1"><i className={item_one.media_one}></i></a></td>
+                              <td><a href="#" className="twitter r1"><i className={item_one.media_one}></i></a></td>
+                              <td><a href="#" className="twitter r1"><i className={item_one.media_one}></i></a></td>
+                              <td><a href="#" className="facebook r1"><i className={item_one.media_two}></i></a></td>
+                              {/* <td><a href="#" className="instagram r1"><i className={item_one.media_three}></i></a></td>
+                              <td><a href="#" className="google-plus r1"><i className={item_one.media_four}></i></a></td>
+                              <td><a href="#" className="linkedin r1"><i className={item_one.media_five}></i></a></td> */}
+                              {/* <a href="#" className="facebook r1"><i className={item_one.media_two}></i></a>
+                              <a href="#" className="instagram r1"><i className={item_one.media_three}></i></a>
+                              <a href="#" className="google-plus r1"><i className={item_one.media_four}></i></a>
+                              <a href="#" className="linkedin r1"><i className={item_one.media_five}></i></a> */}
+                      </div>
+                        
+                      ))
+                    }
+                  </tr>
+              </table>
+             
               
               <div className="copyright">
                 &copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved
