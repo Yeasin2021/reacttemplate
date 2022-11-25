@@ -39,7 +39,7 @@ const Footer = () => {
              
               
               <div className="copyright">
-                &copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved
+                &copy; {item.copyrigt_one} <strong><span>{item.copyrigt_two}</span></strong>{item.copyrigt_three}
               </div>
               <div className="credits">
                 
