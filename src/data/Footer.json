@@ -13,7 +13,8 @@
         "copyrigt_two"          : "Laura",
         "copyrigt_three"        : ". All Rights Reserved",
         "design_one"            : "Designed by",
-        "design_two"            : "BootstrapMade"
+        "design_two"            : "BootstrapMade",
+        "image"                 : "./assets/img/footer-bg.jpg"
      
     }
 ]
