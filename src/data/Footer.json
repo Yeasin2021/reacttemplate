@@ -2,13 +2,13 @@
     {
         "header"                : "Laura Thomson",
         "title"                 : "Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.",
-        "social_media"          : [
-            {"media_one"         : "bx bxl-twitter"},
-            {"media_two"         : "bx bxl-facebook"},
-            {"media_three"       : "bx bxl-instagram"},
-            {"media_four"        : "bx bxl-skype"},
-            {"media_five"        : "bx bxl-linkedin"}
-        ],
+
+        "twitter"               : "bx bxl-twitter",
+        "facebook"              : "bx bxl-facebook",
+        "instagram"             : "bx bxl-instagram",
+        "skype"                 : "bx bxl-skype",
+        "linkedin"              : "bx bxl-linkedin",
+
         "copyrigt_one"          : "Copyright",
         "copyrigt_two"          : "Laura",
         "copyrigt_three"        : ". All Rights Reserved",
