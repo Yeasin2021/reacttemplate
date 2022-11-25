@@ -12,11 +12,14 @@ const Footer = () => {
             <div>
               <h3>{item.header}</h3>
               <p>{item.title}</p>
-              <a href="#" className="twitter"><i className={item.twitter}></i></a>
-              <a href="#" className="facebook"><i className={item.facebook}></i></a>
-              <a href="#" className="instagram"><i className={item.instagram}></i></a>
-              <a href="#" className="skype"><i className={item.skype}></i></a>
-              <a href="#" className="linkedin"><i className={item.linkedin}></i></a>
+              <div className='social-links'>
+                <a href="#" className="twitter"><i className={item.twitter}></i></a>
+                <a href="#" className="facebook"><i className={item.facebook}></i></a>
+                <a href="#" className="instagram"><i className={item.instagram}></i></a>
+                <a href="#" className="skype"><i className={item.skype}></i></a>
+                <a href="#" className="linkedin"><i className={item.linkedin}></i></a>
+              </div>
+              
               <div className="copyright">
                 &copy; {item.copyrigt_one} <strong><span>{item.copyrigt_two}</span></strong>{item.copyrigt_three}
               </div>
