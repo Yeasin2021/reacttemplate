@@ -8,6 +8,10 @@
             "media_three"       : "instagram",
             "media_four"        : "google-plus",
             "media_five"        : "linkedin"
-        }
+        },
+        "copyrigt_one"          : "Copyright",
+        "copyrigt_two"          : "Laura",
+        "copyrigt_three"        : ". All Rights Reserved"
+     
     }
 ]
