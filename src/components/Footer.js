@@ -11,13 +11,20 @@ const Footer = () => {
             <div>
               <h3>{item.header}</h3>
               <p>{item.title}</p>
-              <div className="social-links">
-                <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-              </div>
+              {
+                item.social_media.map((item_one,index_one)=> (
+                 
+                <div>
+                  <a href="#" className="twitter"><i className={item_one.media_one}></i></a>
+                        <span><a href="#" className="facebook"><i className={item_one.media_two}></i></a></span>
+                       <span><a href="#" className="instagram"><i className={item_one.media_three}></i></a></span>
+                        <span><a href="#" className="google-plus"><i className={item_one.media_four}></i></a></span>
+                        <span><a href="#" className="linkedin"><i className={item_one.media_five}></i></a></span>
+                </div>
+                  
+                ))
+              }
+              
               <div className="copyright">
                 &copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved
               </div>
