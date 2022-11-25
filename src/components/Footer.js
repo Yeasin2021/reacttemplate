@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Items from '../data/Footer.json'
+console.log(Items)
 const Footer = () => {
   return (
     <div>
