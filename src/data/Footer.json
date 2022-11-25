@@ -11,7 +11,9 @@
         },
         "copyrigt_one"          : "Copyright",
         "copyrigt_two"          : "Laura",
-        "copyrigt_three"        : ". All Rights Reserved"
+        "copyrigt_three"        : ". All Rights Reserved",
+        "design_one"            : "Designed by",
+        "design_two"            : "BootstrapMade"
      
     }
 ]
