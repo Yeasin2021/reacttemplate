@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <div className="credits">
                 
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              {item.design_one} <a href="https://bootstrapmade.com/">{item.design_two}</a>
               </div>
             </div>
         ))
