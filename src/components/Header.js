@@ -3,7 +3,7 @@ import  Data  from '../data/Data'
 
 
 const Header = () => {
-  console.log(Data[0].image)
+  // console.log(Data[0].image)
   return (
     <div className='header'>
         

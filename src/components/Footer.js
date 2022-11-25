@@ -1,11 +1,12 @@
 import React from 'react'
 import Items from '../data/Footer.json'
+
 console.log(Items)
 const Footer = () => {
   return (
     <div>
-      <footer className='footer'>
-    <div className="container">
+      <footer className='footer' style={{ backgroundImage: `url(${(Items[0].image)})` }}>
+      <div className="container">
       {
         Items.map((item,index)=>(
             <div>
