@@ -37,7 +37,7 @@ const AboutMe = () => {
               <div className="row mt-n4">
                 <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div className="count-box">
-                    <i className="bi bi-emoji-smile" style={{ color: "#20b38e;" }}></i>
+                    <i className="bi bi-emoji-smile" style={{ color: "#20b38e" }}></i>
                     <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
                     <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                   </div>
@@ -45,7 +45,7 @@ const AboutMe = () => {
 
                 <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div className="count-box">
-                    <i className="bi bi-journal-richtextr" style={{ color: "#8a1ac2;" }}></i>
+                    <i className="bi bi-journal-richtextr" style={{ color: "#8a1ac2" }}></i>
                     <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
                     <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
                   </div>
@@ -53,7 +53,7 @@ const AboutMe = () => {
 
                 <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div className="count-box">
-                    <i className="bi bi-clock" style={{ color: "#2cbdee;" }}></i>
+                    <i className="bi bi-clock" style={{ color: "#2cbdee" }}></i>
                     <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" className="purecounter"></span>
                     <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
                   </div>
@@ -61,7 +61,7 @@ const AboutMe = () => {
 
                 <div className="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div className="count-box">
-                    <i className="bi bi-award" style={{ color: "#ffb459;" }}></i>
+                    <i className="bi bi-award" style={{ color: "#ffb459" }}></i>
                     <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" className="purecounter"></span>
                     <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
                   </div>
