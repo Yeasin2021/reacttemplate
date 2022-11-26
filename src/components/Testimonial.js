@@ -66,12 +66,12 @@ const Testimonial = () => {
                 <SwiperSlide>
                 <div className="swiper-slide">
                       <div className="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <img src={item.image2} alt="" className="testimonial-img"/>
+                        <h3>{item.header2}</h3>
+                        <h4>{item.title2}</h4>
                         <p>
                           <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                          {item.description2}
                           <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                       </div>
@@ -80,12 +80,12 @@ const Testimonial = () => {
                 <SwiperSlide>
                 <div className="swiper-slide">
                       <div className="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                        <img src={item.image3} className="testimonial-img" alt="" />
+                        <h3>{item.header3}</h3>
+                        <h4>{item.title3}</h4>
                         <p>
                           <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                          {item.description3}
                           <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                       </div>
@@ -94,18 +94,18 @@ const Testimonial = () => {
                 <SwiperSlide>
                 <div className="swiper-slide">
                       <div className="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
+                        <img src={item.image4} className="testimonial-img" alt="" />
+                        <h3>{item.header4}</h3>
+                        <h4>{item.title4}</h4>
                         <p>
                           <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                          Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                          {item.description4}
                           <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                       </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                 <div className="swiper-slide">
                       <div className="testimonial-item">
                         <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
@@ -118,7 +118,7 @@ const Testimonial = () => {
                         </p>
                       </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
                  </Swiper>
               )
             })
