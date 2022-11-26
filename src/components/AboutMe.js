@@ -22,8 +22,8 @@ const AboutMe = () => {
             <div>
             <div className="section-title">
               <span>{item.header}</span>
-              <h2>About Me</h2>
-              <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+              <h2>{item.header}</h2>
+              <p>{item.title}</p>
             </div>
 
             <div className="row">
@@ -33,18 +33,18 @@ const AboutMe = () => {
                   <div className="row">
                     <div className="col-lg-6">
                       <ul>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Laura Thomso</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Name:</strong> <span>{item.name}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{item.website}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{item.phone}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>{item.city}</span></li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <ul>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{item.age}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{item.degree}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>{item.PhEmailone}</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>{item.Freelance}</span></li>
                       </ul>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ const AboutMe = () => {
                       <div className="count-box">
                         <i className="bi bi-emoji-smile" style={{ color: "#20b38e" }}></i>
                         <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                        <p><strong>{item.happyClientOne}</strong> {item.happyClientTwo}</p>
                       </div>
                     </div>
 
@@ -61,7 +61,7 @@ const AboutMe = () => {
                       <div className="count-box">
                         <i className="bi bi-journal-richtextr" style={{ color: "#8a1ac2" }}></i>
                         <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                        <p><strong>{item.projectOne}</strong> {item.projectTwo}</p>
                       </div>
                     </div>
 
@@ -69,7 +69,7 @@ const AboutMe = () => {
                       <div className="count-box">
                         <i className="bi bi-clock" style={{ color: "#2cbdee" }}></i>
                         <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                        <p><strong>{item.experienceOne}</strong> {item.experienceOne}</p>
                       </div>
                     </div>
 
@@ -77,7 +77,7 @@ const AboutMe = () => {
                       <div className="count-box">
                         <i className="bi bi-award" style={{ color: "#ffb459" }}></i>
                         <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" className="purecounter"></span>
-                        <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                        <p><strong>{item.awardsOne}</strong> {item.awardsTwo}</p>
                       </div>
                     </div>
                   </div>
