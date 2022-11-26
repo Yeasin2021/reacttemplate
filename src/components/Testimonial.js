@@ -52,7 +52,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                 <div className="swiper-slide">
                       <div className="testimonial-item">
-                        <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
+                        <img src={item.image1} className="testimonial-img" alt="" />
                         <h3>Saul Goodman</h3>
                         <h4>Ceo & Founder</h4>
                         <p>
