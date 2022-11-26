@@ -70,7 +70,18 @@
    
   }
   ],
+
+  "header":[
+    {
+      "title"         : "Laura Thomson",
+      "description"   : "I'm a Professional Photographer In New York City",
+      "image"         : "./img/herobg.jpg",
+      "icon"          : "bi bi-chevron-down",
+      "dropdown_icon" : "bi bi-chevron-down"
+  }
+  ],
   
+
   "comments": [
     {
       "id": 1,
