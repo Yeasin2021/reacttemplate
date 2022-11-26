@@ -1,11 +1,22 @@
-import React from 'react'
+import React , {useState,useEffect} from 'react'
 
 const AboutMe = () => {
+  const [items, setItems] = useState(null);
+
+  useEffect(()=>{
+    fetch("http://localhost:8000/about")
+    .then((res)=>{ return res.json()})
+    .then((data)=>{
+      setItems(data)
+      console.log(data)
+    })
+  },[])
+
   return (
     <div>
       <div id="about" className="about">
       <div className="container">
-
+      
         <div className="section-title">
           <span>About Me</span>
           <h2>About Me</h2>
