@@ -21,9 +21,11 @@
         "awardsTwo"             : "rerum asperiores dolor alias quo reprehenderit eum et nemo pad der"
     }
   ],
-  
+
   "testimonial":[
     {
+      "bacgroundImage"           : "assets/img/testimonials-bg.jpg",
+
       "image1"                   : "assets/img/testimonials/testimonials-1.jpg",
       "header1"                  : "Saul Goodman",
       "title1"                   : "Ceo & Founder",

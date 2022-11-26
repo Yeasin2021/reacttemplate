@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from "react-dom";
-import { useRef, useState } from 'react';
+import { useRef, useState , useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css/bundle";
@@ -11,7 +11,18 @@ import "swiper/css/navigation";
 const Testimonial = () => {
 
   
- 
+ const [items,setItems] = useState(null);
+
+ useEffect(() =>{
+    fetch("http://localhost:8000/testimonial")
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      setItems(data)
+      // console.log(data)
+    })
+ },[]);
   
 
   return (
