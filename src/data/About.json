@@ -1,3 +1,22 @@
 [
-    
+    {
+        "header"                : "About Me",
+        "title"                 : "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias",
+        "name"                  : "Laura Thomso",
+        "website"               : "www.example.com",
+        "phone"                 : "+123 456 7890",
+        "city"                  : "New York, USA",
+        "age"                   : "30",
+        "Degree"                : "Master",
+        "PhEmailone"            : "email@example.com",
+        "Freelance"             : "Available",
+        "happyClientOne"        : "Happy Clients",
+        "happyClientTwo"        : "consequuntur voluptas nostrum aliquid ipsam architecto ut.",
+        "projectOne"            : "Projects",
+        "projectTwo"            : "adipisci atque cum quia aspernatur totam laudantium et quia dere tan",
+        "experienceOne"         : "Years of experience",
+        "experienceTwo"         : "aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel",
+        "awardsOne    "         : "Awards",
+        "awardsTwo    "         : "rerum asperiores dolor alias quo reprehenderit eum et nemo pad der",
+    }
 ]
