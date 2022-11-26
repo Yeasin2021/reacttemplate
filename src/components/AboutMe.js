@@ -27,7 +27,8 @@ const AboutMe = () => {
             </div>
 
             <div className="row">
-              <div className="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start" style={{ background:`url(${(item.image)})` }}></div>
+            {/* style={{ background:`url(${(item.image)})` }} */}
+              <div className="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
               <div className="col-lg-8 d-flex flex-column align-items-stretch">
                 <div className="content ps-lg-4 d-flex flex-column justify-content-center">
                   <div className="row">

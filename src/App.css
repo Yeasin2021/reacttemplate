@@ -622,10 +622,10 @@ section {
 }
 
 .about .image {
-  /* background: url("../public/img/me.jpg") center center no-repeat; */
+  background: url("../public/img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
-  background-repeat: no-repeat;
+  
 }
 
 .about .skills-content {
