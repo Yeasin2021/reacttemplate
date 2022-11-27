@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 
 const Pricing = () => {
+  const [items,setItems] = useState(null);
+  
   return (
     <div>
       
