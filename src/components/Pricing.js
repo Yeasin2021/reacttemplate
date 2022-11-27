@@ -101,10 +101,12 @@ const Pricing = () => {
                 <li>{item.cardCourseOne}</li>
                 <li>{item.cardCourseTwo}</li>
                 <li>{item.cardCourseThree}</li>
-                <li>{item.cardCourseFour}</li>
+                {
+                  (item.cardFee) ==0 ? (<><li class="na">{item.cardCourseFour}</li></>) : (<><li>{item.cardCourseFour}</li></>)
+                }
                 {/* { (item.cardCourseFive) > 20 ? '<li  class="na">{item.cardCourseFive}</li>': ''} */}
                 {
-                  (item.cardFee) < 20 ? (<><li class="na">{item.cardCourseFive}</li></>) : ''
+                  (item.cardFee) < 20 ? (<><li class="na">{item.cardCourseFive}</li></>) : (<><li>{item.cardCourseFive}</li></>)
                 }
                 
               </ul>
