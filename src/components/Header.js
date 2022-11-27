@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import  Data  from '../data/Data'
 
 
 const Header = () => {
   // console.log(Data[0].image)
+  const [items,setItems] = useState(null);
+  useEffect(()=>{
+    fetch("http://localhost:8000/header")
+    .then((res)=>{return res.json()})
+    .then(data => setItems(data))
+  },[]);
   return (
     <div className='header'>
         
