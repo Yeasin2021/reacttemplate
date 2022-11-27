@@ -94,7 +94,10 @@ const Pricing = () => {
           items && items.map((item,index)=>{
             return(
               <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="box featured">
+            <div class="box">
+              {
+                (item.cardFee) >29 ? (<><span class="advanced">Advanced</span></>) : ''
+              }
               <h3>{item.cardTitle}</h3>
               <h4><sup>$</sup>{item.cardFee}<span> / month</span></h4>
               <ul>
@@ -104,7 +107,6 @@ const Pricing = () => {
                 {
                   (item.cardFee) ==0 ? (<><li class="na">{item.cardCourseFour}</li></>) : (<><li>{item.cardCourseFour}</li></>)
                 }
-                {/* { (item.cardCourseFive) > 20 ? '<li  class="na">{item.cardCourseFive}</li>': ''} */}
                 {
                   (item.cardFee) < 20 ? (<><li class="na">{item.cardCourseFive}</li></>) : (<><li>{item.cardCourseFive}</li></>)
                 }
