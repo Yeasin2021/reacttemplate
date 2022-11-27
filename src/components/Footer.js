@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Items from '../data/Footer.json'
 
 console.log(Items)
 const Footer = () => {
+  const [items,setItems] = useState(null);
+  useEffect(()=>{
+    fetch("http://localhost:8000/footer")
+    .then(res => {return res.json()})
+    .then(data => setItems(data))
+  },[]);
   return (
     <div>
       <footer className='footer' style={{ backgroundImage: `url(${(Items[0].image)})` }}>
