@@ -110,6 +110,46 @@
         "service_title"             : "Nemo Enim",
         "service_description"       : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
     }
+  ],
+
+  "pricing":[
+
+    {
+      "cardTitle":"Fee",
+      "cardFee":"0",
+      "cardCourseOne":"Aida dere",
+      "cardCourseTwo":"Nec feugiat nisl",
+      "cardCourseThree":"Nulla at volutpat dola",
+      "cardCourseFour":"Pharetra massa",
+      "cardCourseFive":"Massa ultricies mi"
+    },
+    {
+      "cardTitle":"Business",
+      "cardFee":"19",
+      "cardCourseOne":"Aida dere",
+      "cardCourseTwo":"Nec feugiat nisl",
+      "cardCourseThree":"Nulla at volutpat dola",
+      "cardCourseFour":"Pharetra massa",
+      "cardCourseFive":"Massa ultricies mi"
+    },
+    {
+      "cardTitle":"Developer",
+      "cardFee":"29",
+      "cardCourseOne":"Aida dere",
+      "cardCourseTwo":"Nec feugiat nisl",
+      "cardCourseThree":"Nulla at volutpat dola",
+      "cardCourseFour":"Pharetra massa",
+      "cardCourseFive":"Massa ultricies mi"
+    },
+    {
+      "cardTitle":"Ultimate",
+      "cardFee":"49",
+      "cardCourseOne":"Aida dere",
+      "cardCourseTwo":"Nec feugiat nisl",
+      "cardCourseThree":"Nulla at volutpat dola",
+      "cardCourseFour":"Pharetra massa",
+      "cardCourseFive":"Massa ultricies mi"
+    }
   ]
   
 }
