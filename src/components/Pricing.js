@@ -102,7 +102,11 @@ const Pricing = () => {
                 <li>{item.cardCourseTwo}</li>
                 <li>{item.cardCourseThree}</li>
                 <li>{item.cardCourseFour}</li>
-                <li class="na">{item.cardCourseFive}</li>
+                {/* { (item.cardCourseFive) > 20 ? '<li  class="na">{item.cardCourseFive}</li>': ''} */}
+                {
+                  (item.cardFee) < 20 ? (<><li class="na">{item.cardCourseFive}</li></>) : ''
+                }
+                
               </ul>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
