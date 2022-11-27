@@ -12,7 +12,7 @@ const Header = () => {
   },[]);
   return (
     <div className='header'>
-        {console.log(items)}
+        {/* {console.log(items)} */}
   <header  className="fixed-top d-flex justify-content-center align-items-center header-transparent">
 
     <nav id="navbar"  className="navbar">
