@@ -12,7 +12,7 @@ const Pricing = () => {
       
     <section id="pricing" class="pricing">
       <div class="container">
-
+{console.log(items)}
         <div class="section-title">
           <span>Pricing</span>
           <h2>Pricing</h2>
@@ -21,7 +21,7 @@ const Pricing = () => {
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          {/* <div class="col-lg-3 col-md-6">
             <div class="box">
               <h3>Free</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
@@ -88,9 +88,34 @@ const Pricing = () => {
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
+          </div> */}
+
+        {
+          items && items.map((item,index)=>{
+            return(
+              <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3>{item.cardTitle}</h3>
+              <h4><sup>$</sup>{item.cardFee}<span> / month</span></h4>
+              <ul>
+                <li>{item.cardCourseOne}</li>
+                <li>{item.cardCourseTwo}</li>
+                <li>{item.cardCourseThree}</li>
+                <li>{item.cardCourseFour}</li>
+                <li class="na">{item.cardCourseFive}</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
           </div>
+            )
+          })
+        }
+
 
         </div>
+        
 
       </div>
     </section>
