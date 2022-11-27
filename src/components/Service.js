@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import  ServiceData  from '../data/Service.json'
 import ServiceDetails from './ServiceDetails'
 
 const Service = () => {
+const [items,setItems]  = useState(null);
   return (
     <div>
       <section id="services" className="services">
