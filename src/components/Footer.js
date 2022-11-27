@@ -11,7 +11,7 @@ const Footer = () => {
   },[]);
   return (
     <div>
-      {/* {console.log(items)} */}
+      {console.log(items)}
       <footer className='footer' style={{ backgroundImage: `url(${(Items[0].image)})` }}>
       <div className="container">
       {
