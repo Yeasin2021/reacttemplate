@@ -11,6 +11,7 @@ useEffect(()=>{
 },[])
   return (
     <div>
+      {console.log(items)}
       <section id="services" className="services">
       <div className="container">
 
