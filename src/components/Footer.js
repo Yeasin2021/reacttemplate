@@ -11,11 +11,11 @@ const Footer = () => {
   },[]);
   return (
     <div>
-      {console.log(items)}
+      {/* {console.log(items)} */}
       <footer className='footer' style={{ backgroundImage: `url(${(Items[0].image)})` }}>
       <div className="container">
       {
-        Items.map((item,index)=>(
+        items && items.map((item,index)=>(
             <div>
               <h3>{item.header}</h3>
               <p>{item.title}</p>
