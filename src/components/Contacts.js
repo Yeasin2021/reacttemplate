@@ -19,7 +19,7 @@ const Contacts = () => {
                <div class="section-title">
           <span>Contact Me</span>
           <h2>Contact Me</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>{item.title}</p>
         </div>
 
         <div class="row">
@@ -44,14 +44,14 @@ const Contacts = () => {
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Me</h3>
-                  <p>contact@example.com</p>
+                  <p>{item.contactEmail}</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Me</h3>
-                  <p>+1 5589 55488 55</p>
+                  <p>{item.contactPhone}</p>
                 </div>
               </div>
             </div>
