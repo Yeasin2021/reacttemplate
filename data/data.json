@@ -150,6 +150,14 @@
       "cardCourseFour":"Pharetra massa",
       "cardCourseFive":"Massa ultricies mi"
     }
+  ],
+
+  "contact":[
+    {
+      "title"           : "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias",
+      "contactEmail"    : "contact@example.com",
+      "contactPhone"    : "+1 5589 55488 55"
+    }
   ]
   
 }
