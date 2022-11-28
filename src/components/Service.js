@@ -11,14 +11,14 @@ useEffect(()=>{
 },[])
   return (
     <div>
-      {console.log(items)}
+      {/* {console.log(items)} */}
       <section id="services" className="services">
       <div className="container">
 
         <div className="section-title">
-          <span>{ServiceData[0].service_header}</span>
-          <h2>{ServiceData[0].service_header}</h2>
-          <p>{ServiceData[0].service_title}</p>
+          <span>{items && items[0].service_header}</span>
+          <h2>{items && items[0].service_header}</h2>
+          <p>{items && items[0].service_title}</p>
         </div>
 
         <div className="row">
