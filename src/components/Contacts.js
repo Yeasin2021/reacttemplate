@@ -6,7 +6,7 @@ const Contacts = () => {
     fetch("http://localhost:8000/contact")
     .then((response)=>{return response.json()})
     .then(data=>setItems(data))
-  })
+  },[])
   return (
     <div>
       <section id="contact" class="contact">
