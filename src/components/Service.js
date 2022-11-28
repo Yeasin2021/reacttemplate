@@ -11,11 +11,14 @@ useEffect(()=>{
 },[])
   return (
     <div>
-      
+      {/* {console.log(items)} */}
       <section id="services" className="services">
       <div className="container">
 
         <div className="section-title">
+          {/* <span>{ServiceData[0].service_header}</span>
+          <h2>{ServiceData[0].service_header}</h2>
+          <p>{ServiceData[0].service_title}</p> */}
           <span>{items && items[0].service_header}</span>
           <h2>{items && items[0].service_header}</h2>
           <p>{items && items[0].service_title}</p>
@@ -30,6 +33,17 @@ useEffect(()=>{
                 />)
                 
             }
+
+           {/* <div className="row">
+            {
+                ServiceData.slice(1).map((Service,index) => <ServiceDetails key={index} 
+                ServiceTitle={Service.service_title} 
+                ServiceIcon={Service.service_icon}
+                ServiceDescription={Service.service_description} 
+                />)
+                
+            } */}
+            
             {/* data render Another way  */}
             {/* {
 
