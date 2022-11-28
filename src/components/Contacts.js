@@ -1,6 +1,12 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 
 const Contacts = () => {
+  const [items,setItems] = useState(null);
+  useEffect(()=> {
+    fetch("http://localhost:8000/contact")
+    .then((response)=>{return response.json()})
+    .then(data=>setItems(data))
+  })
   return (
     <div>
       <section id="contact" class="contact">
