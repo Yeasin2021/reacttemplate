@@ -32,11 +32,18 @@ const Contacts = () => {
                   <i class="bx bx-share-alt"></i>
                   <h3>Social Profiles</h3>
                   <div class="social-links">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    {
+                       item.icons.map((icon,index)=>(
+                        <div>
+                            <a href="#" class="twitter"><i class={icon}></i></a>
+                            {/* <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> */}
+                        </div>
+                       ))
+                    }
+                    
                   </div>
                 </div>
               </div>
