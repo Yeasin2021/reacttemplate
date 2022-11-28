@@ -9,6 +9,7 @@ const Contacts = () => {
   },[])
   return (
     <div>
+      {console.log(items)}
       <section id="contact" class="contact">
       <div class="container">
 
