@@ -23,10 +23,10 @@ useEffect(()=>{
 
         <div className="row">
             {
-                ServiceData.slice(1).map((Service,index) => <ServiceDetails key={index} 
-                ServiceTitle={Service.service_title} 
-                ServiceIcon={Service.service_icon}
-                ServiceDescription={Service.service_description} 
+                items && items.slice(1).map((item,index) => <ServiceDetails key={index} 
+                ServiceTitle={item.service_title} 
+                ServiceIcon={item.service_icon}
+                ServiceDescription={item.service_description} 
                 />)
                 
             }
