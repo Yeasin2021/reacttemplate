@@ -159,6 +159,10 @@
       "contactPhone"    : "+1 5589 55488 55",
       "icons"           : ["bi bi-twitter","bi bi-facebook","bi bi-instagram","bi bi-skype","bi bi-linkedin"]
     }
+  ],
+
+  "resume":[
+    
   ]
   
 }
