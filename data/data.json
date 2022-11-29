@@ -172,6 +172,7 @@
           "phone"                     : "(123) 456-7891",
           "mail"                      : "alice.barkley@example.com"
         },
+
         {
           "title_two"                 : "Education",
           "degree1"                   : "Master of Fine Arts & Graphic Design",
@@ -182,6 +183,17 @@
           "session2"                  : "2010 - 2014",
           "innstitue2"                : "Rochester Institute of Technology, Rochester, NY",
           "details2"                  : "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend"
+        },
+
+        {
+          "title_three"               : "Professional Experience",
+          "resume_item_1"             : "Senior graphic design specialist",
+          "resume_item_2"             : "2019 - Present",
+          "resume_item_3"             : "Experion, New York, NY ",
+          "des_1"                     : "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
+          "des_2"                     : "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
+          "des_3"                     : "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
+          "des_4"                     : "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
         }
       ]
     }
