@@ -14,7 +14,7 @@ const Portfolio = () => {
     <div>
        <section id="portfolio" class="portfolio">
       <div class="container">
-
+      {console.log(items)}
         <div class="section-title">
           <span>My Portfolio</span>
           <h2>My Portfolio</h2>
