@@ -6,7 +6,11 @@ const Resume = () => {
   // console.log(ResumeData[0].Sumary[0])
   // console.log(ResumeData)
   const [items,setItems] = useState(null);
-  
+  useEffect(()=>{
+    fetch("http://localhost:8000/resume")
+    .then((res)=>{return res.json()})
+    .then((data)=>setItems(data))
+  },[]);
   return (
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>
