@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import ResumeData from '../data/Resume.json';
 import Data from '../data/TestTwo.json';
 
