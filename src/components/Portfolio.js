@@ -1,6 +1,13 @@
 import React,{useState,useEffect} from 'react'
 
 const Portfolio = () => {
+  const [items,setItems]  = useState([]);
+  useEffect(()=>{
+    const url = "http://localhost:8000/portfolio";
+    fetch(url)
+    .then(res=>{return res.json()})
+    .then(data => setItems(data))
+  })
   return (
     <div>
        <section id="portfolio" class="portfolio">
