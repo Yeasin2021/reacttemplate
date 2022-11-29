@@ -5,6 +5,8 @@ import Data from '../data/TestTwo.json';
 const Resume = () => {
   // console.log(ResumeData[0].Sumary[0])
   // console.log(ResumeData)
+  const [items,setItems] = useState(null);
+  
   return (
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>
