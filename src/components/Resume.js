@@ -10,6 +10,7 @@ const Resume = () => {
     fetch("http://localhost:8000/resume")
     .then((res)=>{return res.json()})
     .then((data)=>setItems(data))
+    .catch(error => console.warn(error))
   },[]);
   return (
     
