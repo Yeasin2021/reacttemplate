@@ -163,18 +163,13 @@
 
   "resume":[
     {
-      "topics":[
-        
-        {
           "title_one"                 : "Sumary",
           "key_word_one"              : "Alice Barkley",
           "details"                   : "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
           "address"                   : "Portland par 127,Orlando, FL",
           "phone"                     : "(123) 456-7891",
-          "mail"                      : "alice.barkley@example.com"
-        },
-
-        {
+          "mail"                      : "alice.barkley@example.com",
+        
           "title_two"                 : "Education",
           "degree1"                   : "Master of Fine Arts & Graphic Design",
           "session1"                  : "2015 - 2016",
@@ -183,10 +178,8 @@
           "degree2"                   : "Bachelor of Fine Arts & Graphic Design",
           "session2"                  : "2010 - 2014",
           "innstitue2"                : "Rochester Institute of Technology, Rochester, NY",
-          "details2"                  : "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend"
-        },
-
-        {
+          "details2"                  : "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend",
+        
           "title_three"               : "Professional Experience",
           "resume_item_1"             : "Senior graphic design specialist",
           "resume_item_2"             : "2019 - Present",
@@ -194,19 +187,17 @@
           "des_1"                     : "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
           "des_2"                     : "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
           "des_3"                     : "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
-          "des_4"                     : "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000"
-        },
-
-        {
-          "resume_item_1"             : "Graphic design specialist",
-          "resume_item_2"             : "2017 - 2018",
-          "resume_item_3"             : "Stepping Stone Advertising, New York, NY",
-          "des_1"                     : "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
-          "des_2"                     : "Managed up to 5 projects or tasks at a given time while under pressure",
-          "des_3"                     : "Recommended and consulted with clients on the most appropriate graphic design",
-          "des_4"                     : "Created 4+ design presentations and proposals a month for clients and account managers"
-        }
-      ]
+          "des_4"                     : "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
+        
+          "resume_item_4"             : "Graphic design specialist",
+          "resume_item_5"             : "2017 - 2018",
+          "resume_item_6"             : "Stepping Stone Advertising, New York, NY",
+          "des_5"                     : "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
+          "des_6"                     : "Managed up to 5 projects or tasks at a given time while under pressure",
+          "des_7"                     : "Recommended and consulted with clients on the most appropriate graphic design",
+          "des_8"                     : "Created 4+ design presentations and proposals a month for clients and account managers"
+        
+      
     }
   ]
   
