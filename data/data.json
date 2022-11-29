@@ -203,49 +203,33 @@
 
   "portfolio":[
     {
-      "header"                        : "App 1",
-      "title"                         : "App",
-      "image"                         : "assets/img/portfolio/portfolio-1.jpg"
-    },
-    {
-      "header"                        : "Web 3",
-      "title"                         : "Web",
-      "image"                         : "assets/img/portfolio/portfolio-2.jpg"
-    },
-    {
-      "header"                        : "App 2",
-      "title"                         : "App",
-      "image"                         : "assets/img/portfolio/portfolio-3.jpg"
-    },
-    {
-      "header"                        : "Card 2",
-      "title"                         : "Card",
-      "image"                         : "assets/img/portfolio/portfolio-4.jpg"
-    },
-    {
-      "header"                        : "Web 2",
-      "title"                         : "Web",
-      "image"                         : "assets/img/portfolio/portfolio-5.jpg"
-    },
-    {
-      "header"                        : "App 3",
-      "title"                         : "App",
-      "image"                         : "assets/img/portfolio/portfolio-6.jpg"
-    },
-    {
-      "header"                        : "Card 1",
-      "title"                         : "Card",
-      "image"                         : "assets/img/portfolio/portfolio-7.jpg"
-    },
-    {
-      "header"                        : "Card 3",
-      "title"                         : "Card",
-      "image"                         : "assets/img/portfolio/portfolio-8.jpg"
-    },
-    {
-      "header"                        : "Web 3",
-      "title"                         : "Web",
-      "image"                         : "assets/img/portfolio/portfolio-9.jpg"
+      "header"                          : "App 1",
+      "title"                           : "App",
+      "image"                           : "assets/img/portfolio/portfolio-1.jpg",
+      "header_1"                        : "Web 3",
+      "title_1"                         : "Web",
+      "image_1"                         : "assets/img/portfolio/portfolio-2.jpg",
+      "header_2"                        : "App 2",
+      "title_2"                         : "App",
+      "image_2"                         : "assets/img/portfolio/portfolio-3.jpg",
+      "header_3"                        : "Card 2",
+      "title_3"                         : "Card",
+      "image_3"                         : "assets/img/portfolio/portfolio-4.jpg",
+      "header_4"                        : "Web 2",
+      "title_4"                         : "Web",
+      "image_4"                         : "assets/img/portfolio/portfolio-5.jpg",
+      "header_5"                        : "App 3",
+      "title_5"                         : "App",
+      "image_5"                         : "assets/img/portfolio/portfolio-6.jpg",
+      "header_6"                        : "Card 1",
+      "title_6"                         : "Card",
+      "image_6"                         : "assets/img/portfolio/portfolio-7.jpg",
+      "header_7"                        : "Card 3",
+      "title_7"                         : "Card",
+      "image_7"                         : "assets/img/portfolio/portfolio-8.jpg",
+      "header_8"                        : "Web 3",
+      "title_8"                         : "Web",
+      "image_8"                         : "assets/img/portfolio/portfolio-9.jpg"
     }
   ]
   
