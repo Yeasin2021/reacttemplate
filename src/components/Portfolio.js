@@ -7,7 +7,9 @@ const Portfolio = () => {
     fetch(url)
     .then(res=>{return res.json()})
     .then(data => setItems(data))
-  })
+    .catch(error => console.warn(error))
+  },[])
+
   return (
     <div>
        <section id="portfolio" class="portfolio">
