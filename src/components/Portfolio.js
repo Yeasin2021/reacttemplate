@@ -31,10 +31,10 @@ const Portfolio = () => {
         {
           items && items.map((item,index)=>{
             return(
-              <div class="row portfolio-container">
+              <div class="row portfolio-container" key={index}>
                 
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app" >
                     <div class="portfolio-img"><img src={item.image} class="img-fluid" alt="" /></div>
                     <div class="portfolio-info">
                       <h4>{item.header}</h4>
