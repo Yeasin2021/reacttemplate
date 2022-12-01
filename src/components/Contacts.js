@@ -16,7 +16,7 @@ const Contacts = () => {
       {
         items && items.map((item,index)=>{
           return(
-            <>
+            <div key={index}>
                <div class="section-title">
           <span>Contact Me</span>
           <h2>Contact Me</h2>
@@ -93,7 +93,7 @@ const Contacts = () => {
           </div>
 
         </div>
-            </>
+            </div>
           )
         })
       }
