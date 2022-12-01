@@ -34,7 +34,7 @@ const Testimonial = () => {
           {
             items && items.map((item,index) => {
               return(
-                <Swiper
+                <Swiper key={index}
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
