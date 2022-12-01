@@ -3,7 +3,7 @@ import item from '../data/Resume.json';
 import Data from '../data/TestTwo.json';
 
 const Resume = () => {
-  
+
   const [items,setItems] = useState(null);
   useEffect(()=>{
     fetch("http://localhost:8000/resume")
@@ -16,7 +16,6 @@ const Resume = () => {
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>
       <div className="container">
-        {/* {console.log(items)} */}
         <div className="section-title">
           <span>My Resume</span>
           <h2>My Resume</h2>

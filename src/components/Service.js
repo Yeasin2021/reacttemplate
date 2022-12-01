@@ -3,15 +3,16 @@ import  ServiceData  from '../data/Service.json'
 import ServiceDetails from './ServiceDetails'
 
 const Service = () => {
+  
 const [items,setItems]  = useState(null);
 useEffect(()=>{
   fetch("http://localhost:8000/service")
   .then((response)=>{return response.json()})
   .then((data)=> setItems(data))
 },[])
+
   return (
     <div>
-      {/* {console.log(items)} */}
       <section id="services" className="services">
       <div className="container">
 
