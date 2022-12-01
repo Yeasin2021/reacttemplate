@@ -93,7 +93,7 @@ const Pricing = () => {
         {
           items && items.map((item,index)=>{
             return(
-              <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+              <div class="col-lg-3 col-md-6 mt-4 mt-md-0" key={index}>
             <div class="box">
               {
                 (item.cardFee) >29 ? (<><span class="advanced">Advanced</span></>) : ''
