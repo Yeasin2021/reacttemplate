@@ -3,8 +3,7 @@ import item from '../data/Resume.json';
 import Data from '../data/TestTwo.json';
 
 const Resume = () => {
-  // console.log(item.)
-  // console.log(item)
+  
   const [items,setItems] = useState(null);
   useEffect(()=>{
     fetch("http://localhost:8000/resume")
@@ -12,6 +11,7 @@ const Resume = () => {
     .then((data)=>setItems(data))
     .catch(error => console.warn(error))
   },[]);
+
   return (
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>

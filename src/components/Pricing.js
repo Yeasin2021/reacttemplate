@@ -1,18 +1,18 @@
 import React,{useState,useEffect} from 'react'
 
 const Pricing = () => {
+  
   const [items,setItems] = useState(null);
   useEffect(()=>{
     fetch("http://localhost:8000/pricing")
     .then((response)=>{return response.json()})
     .then(data => setItems(data))
   },[]);
+
   return (
     <div>
-      
     <section id="pricing" class="pricing">
       <div class="container">
-{/* {console.log(items)} */}
         <div class="section-title">
           <span>Pricing</span>
           <h2>Pricing</h2>
