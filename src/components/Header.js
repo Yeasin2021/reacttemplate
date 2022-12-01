@@ -3,7 +3,6 @@ import  Data  from '../data/Data'
 
 
 const Header = () => {
-  // console.log(Data[0].image)
   const [items,setItems] = useState(null);
   useEffect(()=>{
     fetch("http://localhost:8000/header")
@@ -12,7 +11,6 @@ const Header = () => {
   },[]);
   return (
     <div className='header'>
-        {/* {console.log(items)} */}
   <header  className="fixed-top d-flex justify-content-center align-items-center header-transparent">
     
     <nav id="navbar"  className="navbar">
@@ -54,7 +52,6 @@ const Header = () => {
           <div className="hero-container">
             <h1>{item.title}</h1>
             <h2>{item.description}</h2>
-            
             <a href="#about" className="btn-scroll scrollto" title="Scroll Down"><i className={item.icon}></i></a>
           </div>
         </div>
