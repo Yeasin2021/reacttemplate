@@ -25,12 +25,6 @@ const [message,setMessage] = useState("");
         
     }
     
-
-
-const bal = (e) => {
-  e.preventDefault();
-  console.log("baler jibon");
-}
   return (
     <div>
       <form onSubmit={formHandaler} role="form" className="php-email-form">
