@@ -50,7 +50,7 @@ const Header = () => {
   {
       items && items.map((item,index) => {
         return(
-          <div className="hero"  style={{ backgroundImage: `url(${(item.image)})` }}>
+          <div className="hero"  style={{ backgroundImage: `url(${(item.image)})` }} key={index}>
           <div className="hero-container">
             <h1>{item.title}</h1>
             <h2>{item.description}</h2>

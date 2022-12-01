@@ -7,13 +7,11 @@ const [email,setEmail] = useState("");
 const [subject,setSubject] = useState("");
 const [message,setMessage] = useState("");
 
-const formHandaler = (event) =>{
-    event.preventDefault();
-    const data = {name,email,subject,message};
 
+    
     const formHandaler = (event) =>{
-        // event.preventDefault();
-        console.log("clicked")
+        event.preventDefault();
+        const data = {name,email,subject,message};
         const url = "http://localhost:8000/contactMessage";
         fetch(url,{
             method:"POST",
@@ -27,14 +25,15 @@ const formHandaler = (event) =>{
         
     }
     
-}
 
-const bal = () => {
+
+const bal = (e) => {
+  e.preventDefault();
   console.log("baler jibon");
 }
   return (
     <div>
-      <form onSubmit={bal} role="form" className="php-email-form">
+      <form onSubmit={formHandaler} role="form" className="php-email-form">
         
               <div className="row">
                 <div className="col-md-6 form-group">
