@@ -2,7 +2,7 @@ import React from 'react';
 import TestJson from '../data/Test.json';
 import TestJson2 from '../data/TestTwo.json';
 import ResumeData from '../data/Resume.json';
-// console.log(TestJson2)
+
 const Test = () => {
   return (
     <section id="resume" className="resume">
