@@ -48,7 +48,6 @@ const [message,setMessage] = useState("");
                 <div className="error-message"></div>
                 <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              {/* <div className="text-center"><button type="submit" onClick={formHandaler}>Send Message</button></div> */}
               <div className="text-center"><button type="submit">Send Message</button></div>
             </form>
     </div>
