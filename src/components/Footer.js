@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Items from '../data/Footer.json'
 
-console.log(Items)
+// console.log(Items)
 const Footer = () => {
   const [items,setItems] = useState(null);
   useEffect(()=>{
@@ -11,7 +11,7 @@ const Footer = () => {
   },[]);
   return (
     <div>
-      {console.log(items)}
+      {/* {console.log(items)} */}
       <footer className='footer' style={{ backgroundImage: `url(${(Items[0].image)})` }}>
       <div className="container">
       {

@@ -16,7 +16,7 @@ const Resume = () => {
     
       <div id="resume" className="resume" style={{ marginTop:'5%' }}>
       <div className="container">
-        {console.log(items)}
+        {/* {console.log(items)} */}
         <div className="section-title">
           <span>My Resume</span>
           <h2>My Resume</h2>

@@ -9,7 +9,7 @@ const Portfolio = () => {
     .then(data => setItems(data))
     .catch(error => console.warn(error))
   },[])
-  {console.log(items.header_1)}
+  // {console.log(items.header_1)}
   return (
     <div>
        <section id="portfolio" class="portfolio">

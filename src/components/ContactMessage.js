@@ -12,46 +12,54 @@ const formHandaler = (event) =>{
     const data = {name,email,subject,message};
 
     const formHandaler = (event) =>{
-        event.preventDefault();
+        // event.preventDefault();
+        console.log("clicked")
         const url = "http://localhost:8000/contactMessage";
         fetch(url,{
             method:"POST",
             headers:{
-                'Accept':'application/json',
-                'Content-Type':'application/json'
+                'content-type':'application/json'
             },
             body:JSON.stringify(data)
         })
-        .then((response)=>response.json())
-        .catch(error=>{console.log(error)})
+        .then((response)=>{console.warn("Result",response)})
+        .catch(error=>console.warn("Have Some Error: "+error))
+        
     }
     
 }
+
+const bal = () => {
+  console.log("baler jibon");
+}
   return (
     <div>
-      <form onSubmit={formHandaler} role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" value={name} onChange={(e)=>setName(e.target.value)}  required />
+      <form onSubmit={bal} role="form" className="php-email-form">
+        
+              <div className="row">
+                <div className="col-md-6 form-group">
+                  <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" value={name} onChange={(e)=>setName(e.target.value)}  required />
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
+                <div className="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" value={subject} onChange={(e)=>setSubject(e.target.value)} required />
+              <div className="form-group mt-3">
+                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" value={subject} onChange={(e)=>setSubject(e.target.value)} required />
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" value={message} onChange={(e)=>setMessage(e.target.value)} required></textarea>
+              <div className="form-group mt-3">
+                <textarea className="form-control" name="message" rows="6" placeholder="Message" value={message} onChange={(e)=>setMessage(e.target.value)} required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div className="my-3">
+                <div className="loading">Loading</div>
+                <div className="error-message"></div>
+                <div className="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              {/* <div className="text-center"><button type="submit" onClick={formHandaler}>Send Message</button></div> */}
+              <div className="text-center"><button type="submit">Send Message</button></div>
             </form>
     </div>
+   
   )
 }
 

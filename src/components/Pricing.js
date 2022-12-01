@@ -12,7 +12,7 @@ const Pricing = () => {
       
     <section id="pricing" class="pricing">
       <div class="container">
-{console.log(items)}
+{/* {console.log(items)} */}
         <div class="section-title">
           <span>Pricing</span>
           <h2>Pricing</h2>

@@ -20,7 +20,7 @@ const Testimonial = () => {
     })
     .then(data => {
       setItems(data)
-      console.log(data)
+      // console.log(data)
     })
  },[]);
   
