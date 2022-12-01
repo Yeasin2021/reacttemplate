@@ -7,8 +7,6 @@ const [email,setEmail] = useState("");
 const [subject,setSubject] = useState("");
 const [message,setMessage] = useState("");
 
-
-    
     const formHandaler = (event) =>{
         event.preventDefault();
         const data = {name,email,subject,message};
