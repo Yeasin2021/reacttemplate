@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
       {
         items && items.map((item,index)=>(
-            <div>
+            <div key={index}>
               <h3>{item.header}</h3>
               <p>{item.title}</p>
               <div className='social-links'>

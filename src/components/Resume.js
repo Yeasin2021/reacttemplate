@@ -87,9 +87,9 @@ const Resume = () => {
         </div> */}
         
        {
-        items && items.map((item,key)=>{
+        items && items.map((item,index)=>{
           return(
-            <div>
+            <div key={index}>
               <div className="row">
                 <div className="col-lg-6">
                   <h3 className="resume-title">{item.title_one}</h3>
