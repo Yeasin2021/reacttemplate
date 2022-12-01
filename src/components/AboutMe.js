@@ -19,7 +19,7 @@ const AboutMe = () => {
       {
         items && items.map((item,index)=>{
           return(
-            <div>
+            <div key={index}>
             <div className="section-title">
               <span>{item.header}</span>
               <h2>{item.header}</h2>
